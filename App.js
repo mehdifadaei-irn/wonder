@@ -8,7 +8,7 @@ export default function App() {
   const {theme} = useContext(MainContext)
   return (
     <>
-      <StatusBar style="dark" />
+      <StatusBar style="light" animated={true} backgroundColor="#673ab7" currentHeight={'20px'} />
       <MainContextProvider>
         <View style={{ flex: 1, backgroundColor: "#333" }}>
           <Main/>

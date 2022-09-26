@@ -4,7 +4,6 @@ import { NavigationContainer, TabActions } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Home, Notification, Plus, Search, Profile } from "./tabs/index";
 import { MainContext } from "../context/context-store";
-import Ionicons from "@expo/vector-icons/Ionicons";
 import TabBarIcon from "../comps/TabBarIcon";
 
 const tabs = createBottomTabNavigator();
@@ -20,7 +19,6 @@ export default function Main({ route }) {
           tabBarLabel: "",
           tabBarStyle: { backgroundColor: theme.bg_color, borderTopWidth: 0 },
           tabBarIcon: ({ focused, color, size }) => {
-            let iconName;
             let rn = route.name;
 
             return <TabBarIcon focused={focused}  iconName={rn} />;
