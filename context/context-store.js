@@ -1,29 +1,42 @@
-import React, { useState } from "react";
-import { createContext } from "react";
-import { dark_theme } from "../theme/theme";
+import { createContext, useContext, useEffect, useState } from "react";
+import { useFonts } from "expo-font";
 
-export const MainContext = createContext({
-  theme: dark_theme,
-  toggleTheme: () => {},
-});
+export const DrugsContext = createContext();
 
-function MainContextProvider({ children }) {
-  const [theme, setTheme] = useState(dark_theme);
+export const DrugsProvider = ({ children }) => {
+  const [test, setTest] = useState("testy");
+  const [mainDataE, setMainDataE] = useState([]);
 
-//   const toggleTheme = () => {
-//     if(theme.dark=== 'false'){
-//       setTheme(darkTheme)
-//     }else {
-//       setTheme(lightTheme)
-//     }
-//   };
+  const [rightItem, setRightItem] =useState("");
+  const [LeftItem, setLeftItem] =useState("");
 
-  const value = {
-    // toggleTheme,
-    theme,
-  };
 
-  return <MainContext.Provider value={value}>{children}</MainContext.Provider>;
-}
+  let [fontsLoaded] = useFonts({
+    Shabnam: require("../assets/fonts/Shabnam.ttf"),
+    ShabnamBold: require("../assets/fonts/Shabnam-Bold.ttf"),
+    ShabnamLight: require("../assets/fonts/Shabnam-Light.ttf"),
+    IranNastaliq: require("../assets/fonts/IranNastaliq.ttf"),
+    VazirBold: require("../assets/fonts/Vazir-Bold.ttf"),
+    VazirLight: require("../assets/fonts/Vazir-Light.ttf"),
+    VazirMedium: require("../assets/fonts/Vazir-Medium.ttf"),
+    VazirThin: require("../assets/fonts/Vazir-Thin.ttf"),
+    Vazir: require("../assets/fonts/Vazir.ttf"),
+  });
 
-export default MainContextProvider;
+  return (
+    <DrugsContext.Provider
+      value={{
+        test,
+        fontsLoaded,
+        mainDataE,
+        setMainDataE,
+        rightItem,
+        setLeftItem,
+        setRightItem,
+        LeftItem
+      }}
+    >
+      {children}
+    </DrugsContext.Provider>
+  );
+};
