@@ -17,17 +17,11 @@ const CompareListItem = ({ item, witch }) => {
   const navigation = useNavigation();
   const { setRightItem, setLeftItem } = useContext(DrugsContext);
   function Clicked() {
-    console.log("====================================");
-    console.log("Clicked");
-    console.log("====================================");
     if (witch == "right") {
-      setRightItem(item.title);
+      setRightItem(item);
     } else {
-      setLeftItem(item.title);
+      setLeftItem(item);
     }
-    console.log("====================================");
-    console.log("de");
-    console.log("====================================");
     navigation.navigate("compare");
   }
 
@@ -42,24 +36,24 @@ const CompareListItem = ({ item, witch }) => {
         style={{
           width: "93%",
           height: width / 2.8,
-          elevation: 10,
           alignItems: "center",
           borderRadius: 10,
-          elevation: 3,
           marginBottom: "2%",
           flexDirection: "row",
           justifyContent: "space-between",
           paddingHorizontal: "8%",
+          borderWidth: 2,
+          borderColor: '#00000050'
         }}
       >
         <Text
           style={{
             fontWeight: "bold",
             fontSize: 17,
-            maxWidth: 200
+            maxWidth: 200,
           }}
         >
-          {item.title}
+          {item}
         </Text>
         <Image
           source={require("../assets/png/drug.png")}

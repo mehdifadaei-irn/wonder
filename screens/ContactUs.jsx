@@ -11,12 +11,8 @@ import {
   TextInput,
 } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
-import { bgs, drugsData, icons, items } from "../constants/utils";
-import { Feather } from "@expo/vector-icons";
 import { useFonts } from "expo-font";
-import ListItem from "../components/ListItem";
 import Styles, { COLORS } from "../constants/styles/Styles";
-import ListItem2Cols from "../components/ListItem2Cols";
 
 import RFPercentage from "../constants/utils/ResponsiveScale";
 import { TxtLst, TxtLstItms } from "../constants/utils/TxtLsts";
@@ -79,7 +75,7 @@ export default function ContactWithUs({ navigation, route }) {
                     fontFamily: "VazirBold",
                   }}
                 >
-                  اپلیکیشن جستجوی چیز
+                  Search excipients App
                 </Text>
               </View>
               <View style={{ marginTop: "5%" }}>
@@ -97,6 +93,7 @@ export default function ContactWithUs({ navigation, route }) {
           style={{
             marginHorizontal: "10%",
             top: "-6%",
+            marginTop: 10
           }}
         >
           <Text
@@ -116,13 +113,19 @@ export default function ContactWithUs({ navigation, route }) {
             marginBottom: 0,
           }}
         >
-          <View style={{ justifyContent: "center", alignItems: "center",marginTop: '-1%' }}>
+          <View
+            style={{
+              justifyContent: "center",
+              alignItems: "center",
+              marginTop: "-1%",
+            }}
+          >
             <TxtLst
               RFPercentage={RFPercentage}
               COLORS={COLORS}
               headerTxt={" آدرس:"}
               decTxt={
-                ":تهران، سهروردی جنوبی پایین‌تر از چهارراه ملایری پور نبش خیابان امین زاده پلاک 26"
+                "تهران، سهروردی جنوبی پایین‌تر از چهارراه ملایری پور نبش خیابان امین زاده پلاک 26"
               }
             />
             <TxtLst
@@ -135,7 +138,7 @@ export default function ContactWithUs({ navigation, route }) {
               RFPercentage={RFPercentage}
               COLORS={COLORS}
               headerTxt={"ایمیل:"}
-              decTxt={"info@Saminray.com"}
+              decTxt={"ehtaghizadeh@gmail.com"}
             />
           </View>
           <View style={{ marginVertical: "3%", fontFamily: "VazirBold" }}>
@@ -151,49 +154,26 @@ export default function ContactWithUs({ navigation, route }) {
                 }}
               >
                 ثمین رای
-              </Text>{" "}
+              </Text>
               (سهامی خاص ) در آذرماه سال 1381 با هدف ارائه خدمات مهندسی در زمینه
               فناوری اطلاعات و ارتباطات توسط گروهی از متخصصان این صنعت تشکیل و
               با سازماندهی و ایجاد زیرساخت های مهارتی وارد عرصه فعالیت شد.
             </Text>
           </View>
-          <View>
-            <Text style={{ fontSize: RFPercentage(2),fontFamily: "VazirBold",marginTop: '-4%' }}>
-              فعایت های <Text style={{ color: COLORS.PRIMARY }}>ثمین رای</Text>{" "}
-              در حوزه های:
-            </Text>
-            <View
-              style={{
-                marginTop: "1%",
-                alignItems: "flex-end",
-              }}
-            >
-              <TxtLstItms
-                RFPercentage={RFPercentage}
-                COLORS={COLORS}
-                txt={"بانکداری"}
-              />
-              <TxtLstItms
-                RFPercentage={RFPercentage}
-                COLORS={COLORS}
-                txt={"بانکداری نوین (الکترونیک)"}
-              />
-              <TxtLstItms
-                RFPercentage={RFPercentage}
-                COLORS={COLORS}
-                txt={"سیستم مدیریت هوشمند (BMS)"}
-              />
-              <TxtLstItms
-                RFPercentage={RFPercentage}
-                COLORS={COLORS}
-                txt={
-                  "ارتباط و امنیت فنآوری اطلاعات و با اولویت ارا‌‌‌ئه خدمات مهندسی و بازرگانی حرفه ای"
-                }
-              />
-            </View>
-          </View>
         </View>
-        <View style={{ justifyContent: "center", alignItems: "center", marginTop: '-1%' }}>
+        <View
+          style={{
+            justifyContent: "center",
+            alignItems: "center",
+            marginTop: "-1%",
+          }}
+        >
+          <TxtLst
+              RFPercentage={RFPercentage}
+              COLORS={COLORS}
+              headerTxt={"Prepared by : "}
+              decTxt={"ehtaghizadeh@gmail.com"}
+            />
           <Image
             source={require("../assets/png/samin.png")}
             resizeMode={"contain"}

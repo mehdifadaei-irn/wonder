@@ -1,31 +1,40 @@
 {
   "expo": {
-    "name": "Wonder",
-    "slug": "Wonder",
-    "version": "1.0.0",
+    "name": "Excipients",
+    "slug": "Excipients",
+    "version": "1.6.5",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/log0.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/log0.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.mehdi000.Wonder"
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.READ_CALENDAR",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_CONTACTS",
+        "android.permission.CAMERA",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "package": "excipients.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"

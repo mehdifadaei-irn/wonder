@@ -3,7 +3,7 @@
 import {
   View,
   Text,
-  StyleSheet,
+  ActivityIndicator,
   Image,
   FlatList,
   Dimensions,
@@ -14,10 +14,7 @@ import {
   ScrollView,
 } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
-import { bgs, icons, items } from "../constants/utils";
-import { Feather } from "@expo/vector-icons";
-import { useFonts } from "expo-font";
-import ListItem from "../components/ListItem";
+import * as ScreenOrientation from "expo-screen-orientation";
 import Styles, { COLORS } from "../constants/styles/Styles";
 import ListItemPropsSearch from "../components/ListItemPropsSearch";
 import { keys } from "../constants/utils/items";
@@ -25,18 +22,19 @@ import { keys } from "../constants/utils/items";
 export default function PropsSearch({ navigation, route }) {
   const [input, setInput] = useState("");
   const { width, height } = Dimensions.get("screen");
+  ScreenOrientation.lockAsync(ScreenOrientation.Orientation.PORTRAIT_DOWN);
 
   const [features, setFeatures] = useState(keys);
 
   useEffect(() => {
     const newF = keys.filter((f, index) => f.toLowerCase().includes(input));
-    setFeatures(newF);
+    const newF1 = newF.sort();
+    setFeatures(newF1);
   }, [input]);
 
   return (
     <>
       <StatusBar barStyle="default" />
-
       <View
         style={{
           flex: 1,
@@ -56,6 +54,7 @@ export default function PropsSearch({ navigation, route }) {
             width: width,
             height: height / 5,
             zIndex: 20,
+            opacity: 0.9,
           }}
           resizeMode={"cover"}
         >
@@ -84,7 +83,7 @@ export default function PropsSearch({ navigation, route }) {
                 resizeMode="cover"
               />
               <TextInput
-                placeholder="جستجو"
+                placeholder="search"
                 value={input}
                 onChangeText={(text) => setInput(text)}
                 onClear={() => setInput("")}
@@ -93,6 +92,7 @@ export default function PropsSearch({ navigation, route }) {
                   flexDirection: "row-reverse",
                   fontFamily: "VazirBold",
                 }}
+                keyboardType="visible-password"
               />
             </View>
             <View
@@ -110,12 +110,16 @@ export default function PropsSearch({ navigation, route }) {
                     fontSize: 16,
                     color: COLORS.BCG_WHITE,
                     fontFamily: "VazirBold",
+                    marginRight: -10,
                   }}
                 >
-                  اپلیکیشن جستجوی چیز
+                  Search excipients App
                 </Text>
               </View>
-              <View style={{ marginTop: "1%" }}>
+              <TouchableOpacity
+                onPress={() => navigation.navigate("home")}
+                style={{ marginTop: "1%" }}
+              >
                 <Image
                   source={require("../assets/png/logo.png")}
                   resizeMode={"contain"}
@@ -125,7 +129,7 @@ export default function PropsSearch({ navigation, route }) {
                     alignItems: "center",
                   }}
                 />
-              </View>
+              </TouchableOpacity>
             </View>
           </View>
         </ImageBackground>
@@ -137,12 +141,13 @@ export default function PropsSearch({ navigation, route }) {
           <Text
             style={{
               textAlign: "left",
-              fontSize: 24,
+              fontSize: 23,
               fontFamily: "VazirBold",
               marginTop: "-10%",
+              zIndex: 100,
             }}
           >
-            ویژگی ها
+            Functional category
           </Text>
         </View>
 
@@ -151,7 +156,6 @@ export default function PropsSearch({ navigation, route }) {
           contentContainerStyle={{
             marginBottom: 30,
           }}
-          
         >
           {/* {route.params?.description.map((src, index) => { */}
           {features.map((src, index) => {

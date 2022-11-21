@@ -1,23 +1,40 @@
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+  ToastAndroid,
+} from "react-native";
 import React from "react";
-import { COLORS } from "../constants/styles";
 import Styles from "../constants/styles/Styles";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { useNavigation } from "@react-navigation/native";
+import * as Clipboard from "expo-clipboard";
 
 const ListItemPropsSearch = ({ src }) => {
-  const navigation = useNavigation()
+  const navigation = useNavigation();
   return (
     <TouchableOpacity
       activeOpacity={0.85}
-      // onPress={() => navigation.navigate("Search", { doSearch: src })}
       style={{
         flexDirection: "row",
         width: "100%",
       }}
-      onPress={() => {navigation.navigate("searchFD",{
-        name: src
-      })}}
+      onPress={() => {
+        navigation.navigate("searchFD", {
+          name: src,
+        });
+      }}
+      onLongPress={async () => {
+        await Clipboard.setStringAsync(src);
+        ToastAndroid.showWithGravityAndOffset(
+          "Copyied",
+          ToastAndroid.SHORT,
+          ToastAndroid.TOP,
+          0,
+          100
+        );
+      }}
     >
       <View style={Styles.ListItemPropsSearch}>
         <Ionicons

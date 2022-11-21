@@ -7,20 +7,16 @@ import {
   TouchableOpacity,
   ScrollView,
 } from "react-native";
-import React, { useState, useEffect, useContext } from "react";
-import { client } from "../lib/sanityClient";
-import { keys } from "../constants/utils/items";
-import ListItemPropsSearch from "../components/ListItemPropsSearch";
+import React, { useState, useContext } from "react";
 import { DrugsContext } from "../context/context-store";
 import CompareBox from "../components/CompareBox";
 
 const Compare = ({ navigation, route }) => {
-  const { height, width } = Dimensions.get("screen");
+  const { width, height } = Dimensions.get("screen");
 
-  const { rightItem, setLeftItem, setRightItem, LeftItem } =
+
+  const { rightItem,LeftItem } =
     useContext(DrugsContext);
-
-
 
   return (
     <View>
@@ -35,6 +31,7 @@ const Compare = ({ navigation, route }) => {
           marginRight: 1,
           flexDirection: "row",
           justifyContent: "space-between",
+          opacity: 0.9,
         }}
       >
         <TouchableOpacity onPress={() => navigation.goBack()}>
@@ -47,12 +44,13 @@ const Compare = ({ navigation, route }) => {
             }}
           />
         </TouchableOpacity>
-        <View
+        <TouchableOpacity
           style={{
             alignItems: "flex-end",
             justifyContent: "flex-end",
             marginBottom: "7%",
           }}
+          onPress={() => navigation.navigate("home")}
         >
           <Text
             style={{
@@ -64,7 +62,7 @@ const Compare = ({ navigation, route }) => {
               fontFamily: "VazirBold",
             }}
           >
-            اپلیکیشن جستجوی دارو
+            Search excipients App
           </Text>
           <Image
             source={require("../assets/png/logo.png")}
@@ -74,7 +72,7 @@ const Compare = ({ navigation, route }) => {
               alignItems: "center",
             }}
           />
-        </View>
+        </TouchableOpacity>
       </ImageBackground>
       <View
         style={{
@@ -99,13 +97,14 @@ const Compare = ({ navigation, route }) => {
             >
               <TouchableOpacity
                 style={{
-                  borderWidth: 1,
-                  width: "60%",
+                  borderWidth: 2,
+                  width: "65%",
                   height: "9%",
                   borderRadius: 10,
                   alignItems: "center",
                   justifyContent: "center",
-                  marginBottom: "90%",
+                  marginBottom: "99%",
+                  borderColor: "#2ab9cc",
                 }}
                 onPress={() =>
                   navigation.navigate("choose", { witch: "right" })
@@ -113,17 +112,17 @@ const Compare = ({ navigation, route }) => {
               >
                 <Text
                   style={{
-                    fontFamily: "VazirBold",
-                    color: "#33333396",
+                    color: "#182f4e",
+                    fontWeight: "bold",
                   }}
                 >
-                  انتخاب دارو
+                  Choose excipient
                 </Text>
               </TouchableOpacity>
             </View>
           ) : (
             <View>
-              <CompareBox title={rightItem} LOR={'right'} />
+              <CompareBox title={rightItem} LOR={"right"} />
             </View>
           )}
         </View>
@@ -142,29 +141,30 @@ const Compare = ({ navigation, route }) => {
             >
               <TouchableOpacity
                 style={{
-                  borderWidth: 1,
-                  width: "60%",
+                  borderWidth: 2,
+                  width: "65%",
                   height: "9%",
                   borderRadius: 10,
                   alignItems: "center",
                   justifyContent: "center",
-                  marginBottom: "90%",
+                  marginBottom: "99%",
+                  borderColor: "#2ab9cc",
                 }}
                 onPress={() => navigation.navigate("choose", { witch: "left" })}
               >
                 <Text
                   style={{
-                    fontFamily: "VazirBold",
-                    color: "#33333396",
+                    fontWeight: "bold",
+                    color: "#182f4e",
                   }}
                 >
-                  انتخاب دارو
+                  Choose excipient
                 </Text>
               </TouchableOpacity>
             </View>
           ) : (
             <View>
-              <CompareBox title={LeftItem} LOR={'left'} />
+              <CompareBox title={LeftItem} LOR={"left"} />
             </View>
           )}
         </View>

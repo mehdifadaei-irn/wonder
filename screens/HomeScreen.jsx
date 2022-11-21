@@ -4,53 +4,17 @@ import {
   View,
   SafeAreaView,
   Image,
-  TouchableOpacity,
   ImageBackground,
   Dimensions,
   Pressable,
-  Button,
-  ActivityIndicator,
-  FlatList,
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
-// import { client } from "../lib/sanityClient";
 import Ionicons from "@expo/vector-icons/Ionicons";
-import axios from "axios";
-import useFetch from "../hooks/useFetch";
 
 const { height, width } = Dimensions.get("screen");
 
 const HomeScreen = ({ navigation }) => {
-  // useEffect(() => {
-  //   console.log('dad');
-  //   client
-  //     .fetch(
-  //       `*[_type == "excipients"]{
-  //       _id
-  //     }`
-  //     )
-  //     .then((data) => {
-  //       console.log(data);
-  //       console.log('nice');
-  //     })
-  //     .catch((error) => console.log(`errorDadash`));
-  // }, []);
-  const [datas, setDatas] = useState("k");
-  // const { loading, data } = useFetch("https://fakestoreapi.com/products/1");
-  // http://localhost:1337/api/drugs
-
-  const [isLoading, setLoading] = useState(true);
-  const [data, setData] = useState([]);
-
-  function Clickd() {
-    console.log("sta1231rt32");
-    fetch("https://randomuser.me/api/")
-      .then((res) => res.json())
-      .then((json) => console.log(json))
-      .catch((e) => console.log(e));
-  }
-
   return (
     <SafeAreaView
       style={{
@@ -58,22 +22,12 @@ const HomeScreen = ({ navigation }) => {
       }}
     >
       <Header />
-      <Button title="c" onPress={Clickd} />
       <View
         style={{
           alignItems: "center",
           justifyContent: "center",
         }}
       >
-        <FlatList
-          data={data}
-          keyExtractor={({ id }, index) => id}
-          renderItem={({ item }) => (
-            <Text>
-              {item.title}, {item.releaseYear}
-            </Text>
-          )}
-        />
         <View
           style={[
             {
@@ -90,16 +44,15 @@ const HomeScreen = ({ navigation }) => {
             <Pressable
               style={({ pressed }) => [
                 {
-                  width: "90%",
-                  height: height / 8,
+                  width: "96%",
+                  height: height / 7.5,
                   borderRadius: 20,
                   alignItems: "center",
                   justifyContent: "space-between",
                   backgroundColor: pressed ? "#33333320" : "transparent",
                 },
                 {
-                  elevation: 1,
-                  shadowColor: "#000",
+                  borderWidth: 1,
                 },
               ]}
               onPress={() => navigation.navigate("searchDrug")}
@@ -116,19 +69,19 @@ const HomeScreen = ({ navigation }) => {
               <Text
                 style={{
                   color: "#000",
-                  marginBottom: "10%",
-                  fontFamily: "VazirBold",
+                  marginBottom: "5%",
                   fontSize: 16,
+                  fontWeight: "bold",
                 }}
               >
-                جستجوی دارو
+                Excipients
               </Text>
             </Pressable>
             <Pressable
               style={({ pressed }) => [
                 {
-                  width: "90%",
-                  height: height / 8,
+                  width: "96%",
+                  height: height / 7.5,
                   borderRadius: 20,
                   alignItems: "center",
                   justifyContent: "space-between",
@@ -136,8 +89,7 @@ const HomeScreen = ({ navigation }) => {
                   marginTop: "13%",
                 },
                 {
-                  elevation: 1,
-                  shadowColor: "#000",
+                  borderWidth: 1,
                 },
               ]}
               onPress={() => navigation.navigate("compare")}
@@ -154,12 +106,12 @@ const HomeScreen = ({ navigation }) => {
               <Text
                 style={{
                   color: "#000",
-                  marginBottom: "10%",
-                  fontFamily: "VazirBold",
+                  marginBottom: "5%",
                   fontSize: 16,
+                  fontWeight: "bold",
                 }}
               >
-                مقایسه
+                Compare
               </Text>
             </Pressable>
           </View>
@@ -167,16 +119,15 @@ const HomeScreen = ({ navigation }) => {
             <Pressable
               style={({ pressed }) => [
                 {
-                  width: "90%",
-                  height: height / 8,
+                  width: "96%",
+                  height: height / 7.5,
                   borderRadius: 20,
                   alignItems: "center",
                   justifyContent: "space-between",
                   backgroundColor: pressed ? "#33333320" : "transparent",
                 },
                 {
-                  elevation: 1,
-                  shadowColor: "#000",
+                  borderWidth: 1,
                 },
               ]}
               onPress={() => navigation.navigate("searchFeatur")}
@@ -193,19 +144,19 @@ const HomeScreen = ({ navigation }) => {
               <Text
                 style={{
                   color: "#000",
-                  marginBottom: "10%",
-                  fontFamily: "VazirBold",
-                  fontSize: 16,
+                  marginBottom: "5%",
+                  fontSize: 15,
+                  fontWeight: "bold",
                 }}
               >
-                جستجوی ویژگی
+                Functional category
               </Text>
             </Pressable>
             <Pressable
               style={({ pressed }) => [
                 {
-                  width: "90%",
-                  height: height / 8,
+                  width: "96%",
+                  height: height / 7.5,
                   borderRadius: 20,
                   alignItems: "center",
                   justifyContent: "space-between",
@@ -213,8 +164,7 @@ const HomeScreen = ({ navigation }) => {
                   marginTop: "13%",
                 },
                 {
-                  elevation: 1,
-                  shadowColor: "#000",
+                  borderWidth: 1,
                 },
               ]}
               onPress={() => navigation.navigate("contactUs")}
@@ -231,12 +181,12 @@ const HomeScreen = ({ navigation }) => {
               <Text
                 style={{
                   color: "#000",
-                  marginBottom: "10%",
-                  fontFamily: "VazirBold",
+                  marginBottom: "5%",
                   fontSize: 16,
+                  fontWeight: "bold",
                 }}
               >
-                تماس با ما
+                Contact Us
               </Text>
             </Pressable>
           </View>
@@ -248,22 +198,34 @@ const HomeScreen = ({ navigation }) => {
         style={{
           width: width,
           height: "63%",
-          paddingTop: "4%",
-          paddingRight: "4%",
-          alignItems: "flex-end",
+          alignItems: "flex-start",
           justifyContent: "center",
         }}
         resizeMode="contain"
       >
         <Text
           style={{
-            paddingBottom: "6%",
-            paddingRight: "3%",
+            paddingBottom: "2%",
             color: "#fff",
-            fontFamily: "VazirBold",
+            fontWeight: "bold",
+            width: "100%",
+            width: width,
+            marginTop: "-14%",
+            marginLeft: "2%",
           }}
         >
-          منبع: Handbook of Pharmaceutical Excipients
+          Handbook of Pharmaceutical Excipients (Sixth edition)
+        </Text>
+        <Text
+          style={{
+            paddingBottom: "6%",
+            color: "#fff",
+            fontWeight: "bold",
+            width: "100%",
+            textAlign: "center",
+          }}
+        >
+          Prepared by: Ehsan Taghizadeh Davoudi (PhD of Pharmaceutics)
         </Text>
       </ImageBackground>
     </SafeAreaView>

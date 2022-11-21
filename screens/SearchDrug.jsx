@@ -1,7 +1,7 @@
 import {
   View,
   Text,
-  StyleSheet,
+  ActivityIndicator,
   Image,
   FlatList,
   Dimensions,
@@ -16,13 +16,15 @@ import { useFonts } from "expo-font";
 import Styles, { COLORS } from "../constants/styles/Styles";
 import ListItem2Cols from "../components/ListItem2Cols";
 import { DrugsContext } from "../context/context-store";
-import { client } from "../lib/sanityClient";
+import { props } from "../constants/utils/items";
+import * as ScreenOrientation from "expo-screen-orientation";
 
 export default function SearchDrug({ navigation, route }) {
   const [loaded] = useFonts({
     Montserrat: require("../assets/fonts/Montserrat-BoldItalic.ttf"),
   });
   const { width, height } = Dimensions.get("screen");
+  ScreenOrientation.lockAsync(ScreenOrientation.Orientation.PORTRAIT_DOWN);
 
   const [loading, setLoading] = useState(true);
   const [myData, setMyData] = useState();
@@ -32,120 +34,18 @@ export default function SearchDrug({ navigation, route }) {
 
   useEffect(() => {
     if (input) {
-      let newList = test.mainDataE.filter((d) =>
-        d.title.toLowerCase().includes(input)
-      );
+      let newList = test.mainDataE.filter((d) => d.includes(input));
       setMyData(newList);
     }
     if (!input && test.mainDataE) {
-      client
-        .fetch(
-          `*[_type == "excipients"] | order(title asc){
-            _id,
-        title,
-        emulsifying,
-        solvent,
-        diluent,
-        stabilizing,
-        suspending,
-        binder,
-        disintegrant,
-        viscosity_increasing,
-        thickener,
-        sweetening,
-        acidifying,
-        plasticizer,
-        suppository_base,
-        sustained_extended_control,
-        therapeutic_agent,
-        skin_penetrant,
-        bioabsorbable,
-        biocompatible,
-        biodegradable,
-        oleaginous_vehicle,
-        antioxidant,
-        vaccine_adjuvant,
-        adsorbent,
-        dispersing_Solid,
-        gelling_agent,
-        opacifier,
-        alkalizing,
-        film_former_coating,
-        enteric_coating,
-        humectant,
-        antimicrobial_preservative,
-        antiseptic,
-        disinfectant,
-        solubilizing,
-        wetting_agent,
-        buffering,
-        dietary_supplement,
-        lubricant_glidant,
-        anticaking,
-        bioadhesive,
-        release_modifying,
-        aerosol_propellant,
-        air_displacement,
-        water_absorbing,
-        water_repelling_agent,
-        stiffening_agent,
-        cationic_surfactant,
-        anionic,
-        mucoadhesive,
-        flavor_enhancer,
-        chelating,
-        colorants,
-        granulating,
-        alcohol_denaturant,
-        tonicity_agent,
-        antifoaming,
-        Penetration_enhancer,
-        chelating_agent,
-        taste_masking,
-        fixative,
-        membrane,
-        transdermal_backing,
-        dissolution_enhancer,
-        nonionic_surfactant,
-        cosmetic_ingredient,
-        diagnostic_aid,
-        acidulant,
-        directly_compressible_tableting_excipient,
-        lyophilization_aid,
-        ointment_base,
-        food_additive,
-        surfactant,
-        antiadherent,
-        antacid,
-        organic_base,
-        color_dispersant,
-        complexing_agent,
-        gas_forming,
-        sequestering_agent,
-        sterilizing_agent,
-        esterifying_agent,
-        water_miscible_cosolvent,
-        crystallization_modifier_Inhibitor_sucrose,
-        stabilizer_for_freeze_dried_formulations,
-        blood_substitute_stabilizer,
-        channeling_agent,
-        osmotic_agent,
-        porosity_modifier,
-        blood_anticoagulant,
-        detergent,
-        water_holding,
-        cooling_agent,
-        pigment,
-        polishing_agent
-          }`
-        )
-        .then((data) => {
-          test.setMainDataE(data);
-          setLoading(false);
-          setMyData(data);
-          // console.log(data);
-        })
-        .catch((error) => console.log(`errorDadash: ${error}`));
+      let arr = [];
+      props.data.map((prop) => {
+        arr.push(prop.title);
+      });
+      test.setMainDataE(arr);
+      setLoading(false);
+
+      setMyData(arr.sort());
     }
     if (!test.mainDataE) {
       setMyData(test.mainDataE);
@@ -178,6 +78,7 @@ export default function SearchDrug({ navigation, route }) {
             width: width,
             height: height / 5,
             zIndex: 20,
+            opacity: 0.9,
           }}
           resizeMode={"cover"}
         >
@@ -206,7 +107,7 @@ export default function SearchDrug({ navigation, route }) {
                 resizeMode="cover"
               />
               <TextInput
-                placeholder="جستجو"
+                placeholder="search"
                 value={input}
                 onChangeText={(text) => setInput(text)}
                 onClear={() => setInput("")}
@@ -232,12 +133,16 @@ export default function SearchDrug({ navigation, route }) {
                     fontSize: 16,
                     color: COLORS.BCG_WHITE,
                     fontFamily: "VazirBold",
+                    marginRight: -10,
                   }}
                 >
-                  اپلیکیشن جستجوی چیز
+                  Search excipients App
                 </Text>
               </View>
-              <View style={{ marginTop: "1%" }}>
+              <TouchableOpacity
+                style={{ marginTop: "1%" }}
+                onPress={() => navigation.navigate("home")}
+              >
                 <Image
                   source={require("../assets/png/logo.png")}
                   resizeMode={"contain"}
@@ -247,7 +152,7 @@ export default function SearchDrug({ navigation, route }) {
                     alignItems: "center",
                   }}
                 />
-              </View>
+              </TouchableOpacity>
             </View>
           </View>
         </ImageBackground>
@@ -265,13 +170,19 @@ export default function SearchDrug({ navigation, route }) {
               marginBottom: 9,
             }}
           >
-            تمام چیزها
+            All Excipients
           </Text>
         </View>
 
         {loading ? (
-          <View>
-            <Text>loading.....</Text>
+          <View
+            style={{
+              flex: 1,
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <ActivityIndicator size="large" color="#00ff00" />
           </View>
         ) : (
           <View>
@@ -281,6 +192,9 @@ export default function SearchDrug({ navigation, route }) {
               data={myData}
               renderItem={({ item }) => {
                 return <ListItem2Cols item={item} />;
+              }}
+              style={{
+                maxHeight: (height * 5) / 7,
               }}
             />
           </View>

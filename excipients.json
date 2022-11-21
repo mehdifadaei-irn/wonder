@@ -1,0 +1,1941 @@
+[
+  {
+    "Excipients / Function": "Column1",
+    "Emulsifying": "Column2",
+    "Diluent": "Column3",
+    "Stabilizing": "Column4",
+    "Suspending": "Column5",
+    "Binder": "Column6",
+    "Disintegrant": "Column7",
+    "Viscosity-increasing": "Column8",
+    "Thickener": "Column9",
+    "Sweetening": "Column10",
+    "Acidifying": "Column11",
+    "Solvent": "Column12",
+    "Plasticizer": "Column13",
+    "Suppository base": "Column14",
+    "Sustained/Extended/Control ": "Column15",
+    "Therapeutic agent": "Column16",
+    "Skin penetrant": "Column17",
+    "Bioabsorbable": "Column18",
+    "Biocompatible": "Column19",
+    "Biodegradable": "Column20",
+    "Oleaginous vehicle": "Column21",
+    "Antioxidant": "Column22",
+    "Vaccine adjuvant": "Column23",
+    "Adsorbent": "Column24",
+    "Dispersing (Solid)": "Column25",
+    "Gelling agent": "Column26",
+    "Opacifier": "Column27",
+    "Alkalizing": "Column28",
+    "Film-former/coating": "Column29",
+    "Enteric coating": "Column30",
+    "Humectant": "Column31",
+    "Antimicrobial preservative": "Column32",
+    "Antiseptic": "Column33",
+    "Disinfectant": "Column34",
+    "Solubilizing": "Column35",
+    "Wetting agent": "Column36",
+    "Buffering": "Column37",
+    "Dietary supplement": "Column38",
+    "Lubricant (glidant)": "Column39",
+    "Anticaking": "Column40",
+    "Bioadhesive": "Column41",
+    "Release-modifying": "Column42",
+    "Aerosol propellant": "Column43",
+    "Air displacement": "Column44",
+    "Water-absorbing": "Column45",
+    "Water-repelling agent": "Column46",
+    "Stiffening agent": "Column47",
+    "Cationic surfactant": "Column48",
+    "Anionic": "Column49",
+    "Mucoadhesive": "Column50",
+    "Chelating": "Column51",
+    "Flavor enhancer": "Column52",
+    "Colorants": "Column53",
+    "Granulating": "Column54",
+    "Alcohol denaturant": "Column55",
+    "Tonicity agent": "Column56",
+    "Antifoaming": "Column57",
+    "Penetration enhancer": "Column58",
+    "Chelating agent": "Column59",
+    "Taste masking": "Column60",
+    "Fixative": "Column61",
+    "Membrane": "Column62",
+    "Transdermal backing": "Column63",
+    "Dissolution enhancer": "Column64",
+    "Nonionic surfactant": "Column65",
+    "Cosmetic ingredient": "Column66",
+    "Diagnostic aid": "Column67",
+    "Acidulant": "Column68",
+    "Directly compressible tableting excipient": "Column69",
+    "Lyophilization aid": "Column70",
+    "Ointment base": "Column71",
+    "Food additive": "Column72",
+    "Surfactant": "Column73",
+    "Antiadherent": "Column74",
+    "Antacid": "Column75",
+    "Organic base": "Column76",
+    "Color dispersant": "Column77",
+    "Complexing agent": "Column78",
+    "Gas forming": "Column79",
+    "Sequestering agent": "Column80",
+    "Sterilizing agent": "Column81",
+    "Esterifying agent": "Column82",
+    "Water-miscible cosolvent": "Column83",
+    "Crystallization modifier/Inhibitor (sucrose)": "Column84",
+    "Stabilizer for freeze-dried formulations": "Column85",
+    "Blood substitute stabilizer": "Column86",
+    "Channeling agent": "Column87",
+    "Osmotic agent": "Column88",
+    "Porosity modifier": "Column89",
+    "Blood anticoagulant": "Column90",
+    "Detergent": "Column91",
+    "Water-holding": "Column92",
+    "Cooling agent": "Column93",
+    "Pigment": "Column94",
+    "Polishing agent": "Column95"
+  },
+  {
+    "Excipients / Function": "Acacia",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Thickener": "√"
+  },
+  {
+    "Excipients / Function": "Acesulfame Potassium",
+    "Sweetening": "√"
+  },
+  {
+    "Excipients / Function": "Acetic Acid, Glacial",
+    "Acidifying": "√"
+  },
+  {
+    "Excipients / Function": "Acetone",
+    "Solvent": "√"
+  },
+  {
+    "Excipients / Function": "Acetyltributyl Citrate",
+    "Plasticizer": "√"
+  },
+  {
+    "Excipients / Function": "Agar",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Thickener": "√",
+    "Suppository base": "√",
+    "Sustained/Extended/Control ": "√"
+  },
+  {
+    "Excipients / Function": "Albumin",
+    "Stabilizing": "√",
+    "Therapeutic agent": "√"
+  },
+  {
+    "Excipients / Function": "Alcohol  done",
+    "Solvent": "√",
+    "Skin penetrant": "√",
+    "Antimicrobial preservative": "√",
+    "Disinfectant": "√"
+  },
+  {
+    "Excipients / Function": "Alginic Acid",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√",
+    "Sustained/Extended/Control ": "√"
+  },
+  {
+    "Excipients / Function": "Aliphatic Polyesters",
+    "Bioabsorbable": "√",
+    "Biocompatible": "√",
+    "Biodegradable": "√"
+  },
+  {
+    "Excipients / Function": "Alitame",
+    "Sweetening": "√"
+  },
+  {
+    "Excipients / Function": "Almond Oil",
+    "Emulsifying": "√",
+    "Solvent": "√",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Alpha Tocopherol",
+    "Therapeutic agent": "√",
+    "Antioxidant": "√"
+  },
+  {
+    "Excipients / Function": "Aluminum Hydroxide Adjuvant ",
+    "Vaccine adjuvant": "√",
+    "Adsorbent": "√"
+  },
+  {
+    "Excipients / Function": "Aluminum Oxide ",
+    "Adsorbent": "√",
+    "Dispersing (Solid)": "√"
+  },
+  {
+    "Excipients / Function": "Aluminum Phosphate Adjuvant ",
+    "Vaccine adjuvant": "√",
+    "Adsorbent": "√"
+  },
+  {
+    "Excipients / Function": "Aluminum Stearate ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Gelling agent": "√",
+    "Opacifier": "√"
+  },
+  {
+    "Excipients / Function": "Ammonia Solution ",
+    "Alkalizing": "√"
+  },
+  {
+    "Excipients / Function": "Ammonium Alginate ",
+    "Emulsifying": "√",
+    "Diluent": "√",
+    "Stabilizing": "√",
+    "Thickener": "√",
+    "Film-former/coating": "√",
+    "Humectant": "√"
+  },
+  {
+    "Excipients / Function": "Ascorbic Acid ",
+    "Therapeutic agent": "√",
+    "Antioxidant": "√"
+  },
+  {
+    "Excipients / Function": "Ascorbyl Palmitate ",
+    "Antioxidant": "√"
+  },
+  {
+    "Excipients / Function": "Aspartame ",
+    "Sweetening": "√"
+  },
+  {
+    "Excipients / Function": "Attapulgite ",
+    "Adsorbent": "√"
+  },
+  {
+    "Excipients / Function": "Bentonite ",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Viscosity-increasing": "√",
+    "Adsorbent": "√"
+  },
+  {
+    "Excipients / Function": "Benzalkonium Chloride ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√",
+    "Disinfectant": "√",
+    "Solubilizing": "√",
+    "Wetting agent": "√"
+  },
+  {
+    "Excipients / Function": "Benzoic Acid ",
+    "Therapeutic agent": "√",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Benzyl Alcohol ",
+    "Antimicrobial preservative": "√",
+    "Disinfectant": "√"
+  },
+  {
+    "Excipients / Function": "Benzyl Benzoate ",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Therapeutic agent": "√",
+    "Solubilizing": "√"
+  },
+  {
+    "Excipients / Function": "Boric Acid ",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Bronopol ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√"
+  },
+  {
+    "Excipients / Function": "Butylated Hydroxyanisole ",
+    "Antioxidant": "√"
+  },
+  {
+    "Excipients / Function": "Butylated Hydroxytoluene ",
+    "Antioxidant": "√"
+  },
+  {
+    "Excipients / Function": "Butylparaben",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Calcium Alginate ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Disintegrant": "√",
+    "Thickener": "√",
+    "Sustained/Extended/Control ": "√"
+  },
+  {
+    "Excipients / Function": "Calcium Carbonate ",
+    "Diluent": "√",
+    "Therapeutic agent": "√",
+    "Opacifier": "√",
+    "Film-former/coating": "√",
+    "Buffering": "√"
+  },
+  {
+    "Excipients / Function": "Calcium Phosphate, Dibasic Anhydrous ",
+    "Diluent": "√"
+  },
+  {
+    "Excipients / Function": "Calcium Phosphate, Dibasic Dihydrate ",
+    "Diluent": "√"
+  },
+  {
+    "Excipients / Function": "Calcium Phosphate, Tribasic ",
+    "Diluent": "√",
+    "Buffering": "√",
+    "Dietary supplement": "√",
+    "Lubricant (glidant)": "√",
+    "Anticaking": "√"
+  },
+  {
+    "Excipients / Function": "Calcium Stearate ",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Calcium Sulfate ",
+    "Diluent": "√",
+    "Disintegrant": "√"
+  },
+  {
+    "Excipients / Function": "Canola Oil ",
+    "Oleaginous vehicle": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Carbomer ",
+    "Emulsifying": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Bioadhesive": "√",
+    "Release-modifying": "√"
+  },
+  {
+    "Excipients / Function": "Carbon Dioxide ",
+    "Aerosol propellant": "√",
+    "Air displacement": "√"
+  },
+  {
+    "Excipients / Function": "Carboxymethylcellulose Calcium ",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√",
+    "Water-absorbing": "√"
+  },
+  {
+    "Excipients / Function": "Carboxymethylcellulose Sodium ",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√",
+    "Film-former/coating": "√",
+    "Water-absorbing": "√"
+  },
+  {
+    "Excipients / Function": "Carrageenan ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Viscosity-increasing": "√",
+    "Sustained/Extended/Control ": "√",
+    "Gelling agent": "√"
+  },
+  {
+    "Excipients / Function": "Castor Oil ",
+    "Emulsifying": "√",
+    "Solvent": "√",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Castor Oil, Hydrogenated ",
+    "Sustained/Extended/Control ": "√",
+    "Lubricant (glidant)": "√",
+    "Stiffening agent": "√"
+  },
+  {
+    "Excipients / Function": "Cellulose, Microcrystalline ",
+    "Diluent": "√",
+    "Suspending": "√",
+    "Disintegrant": "√",
+    "Adsorbent": "√"
+  },
+  {
+    "Excipients / Function": "Cellulose, Powdered ",
+    "Diluent": "√",
+    "Suspending": "√",
+    "Disintegrant": "√",
+    "Adsorbent": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Cellulose, Silicified Microcrystalline ",
+    "Diluent": "√"
+  },
+  {
+    "Excipients / Function": "Cellulose Acetate ",
+    "Diluent": "√",
+    "Sustained/Extended/Control ": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Cellulose Acetate Phthalate ",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Ceratonia ",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Sustained/Extended/Control ": "√"
+  },
+  {
+    "Excipients / Function": "Cetostearyl Alcohol ",
+    "Emulsifying": "√",
+    "Viscosity-increasing": "√"
+  },
+  {
+    "Excipients / Function": "Cetrimide ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√",
+    "Disinfectant": "√",
+    "Cationic surfactant": "√"
+  },
+  {
+    "Excipients / Function": "Cetyl Alcohol ",
+    "Emulsifying": "√",
+    "Film-former/coating": "√",
+    "Stiffening agent": "√"
+  },
+  {
+    "Excipients / Function": "Cetylpyridinium Chloride ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√",
+    "Disinfectant": "√",
+    "Solubilizing": "√",
+    "Wetting agent": "√",
+    "Cationic surfactant": "√"
+  },
+  {
+    "Excipients / Function": "Chitosan ",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√",
+    "Film-former/coating": "√",
+    "Mucoadhesive": "√"
+  },
+  {
+    "Excipients / Function": "Chlorhexidine ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√"
+  },
+  {
+    "Excipients / Function": "Chlorobutanol ",
+    "Plasticizer": "√",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Chlorocresol ",
+    "Antimicrobial preservative": "√",
+    "Disinfectant": "√"
+  },
+  {
+    "Excipients / Function": "Chlorodifluoroethane (HCFC) ",
+    "Aerosol propellant": "√"
+  },
+  {
+    "Excipients / Function": "Chlorofluorocarbons (CFC) ",
+    "Aerosol propellant": "√"
+  },
+  {
+    "Excipients / Function": "Chloroxylenol ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√",
+    "Disinfectant": "√"
+  },
+  {
+    "Excipients / Function": "Cholesterol ",
+    "Emulsifying": "√"
+  },
+  {
+    "Excipients / Function": "Citric Acid Monohydrate ",
+    "Acidifying": "√",
+    "Antioxidant": "√",
+    "Buffering": "√",
+    "Chelating": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Colloidal Silicon Dioxide ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√",
+    "Adsorbent": "√",
+    "Lubricant (glidant)": "√",
+    "Anticaking": "√"
+  },
+  {
+    "Excipients / Function": "Coloring Agents ",
+    "Opacifier": "√",
+    "Colorants": "√"
+  },
+  {
+    "Excipients / Function": "Copovidone ",
+    "Binder": "√",
+    "Film-former/coating": "√",
+    "Granulating": "√"
+  },
+  {
+    "Excipients / Function": "Corn Oil ",
+    "Solvent": "√",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Cottonseed Oil ",
+    "Solvent": "√",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Cresol ",
+    "Antimicrobial preservative": "√",
+    "Disinfectant": "√"
+  },
+  {
+    "Excipients / Function": "Croscarmellose Sodium ",
+    "Disintegrant": "√"
+  },
+  {
+    "Excipients / Function": "Crospovidone ",
+    "Disintegrant": "√"
+  },
+  {
+    "Excipients / Function": "Cyclodextrins ",
+    "Stabilizing": "√",
+    "Solubilizing": "√"
+  },
+  {
+    "Excipients / Function": "Cyclomethicone DONEEEEEEEEEEEEEEEEEEEEEE",
+    "Emulsifying": "√",
+    "Viscosity-increasing": "√",
+    "Humectant": "√"
+  },
+  {
+    "Excipients / Function": "Denatonium Benzoate ",
+    "Flavor enhancer": "√",
+    "Alcohol denaturant": "√"
+  },
+  {
+    "Excipients / Function": "Dextrates ",
+    "Diluent": "√",
+    "Binder": "√"
+  },
+  {
+    "Excipients / Function": "Dextrin ",
+    "Diluent": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Stiffening agent": "√"
+  },
+  {
+    "Excipients / Function": "Dextrose ",
+    "Diluent": "√",
+    "Sweetening": "√",
+    "Therapeutic agent": "√",
+    "Tonicity agent": "√"
+  },
+  {
+    "Excipients / Function": "Dibutyl Phthalate ",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Dibutyl Sebacate ",
+    "Plasticizer": "√"
+  },
+  {
+    "Excipients / Function": "Diethanolamine ",
+    "Emulsifying": "√",
+    "Alkalizing": "√"
+  },
+  {
+    "Excipients / Function": "Diethyl Phthalate ",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Difluoroethane (HFC) ",
+    "Aerosol propellant": "√"
+  },
+  {
+    "Excipients / Function": "Dimethicone ",
+    "Emulsifying": "√",
+    "Antifoaming": "√"
+  },
+  {
+    "Excipients / Function": "Dimethyl Ether ",
+    "Aerosol propellant": "√"
+  },
+  {
+    "Excipients / Function": "Dimethyl Phthalate ",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Dimethyl Sulfoxide ",
+    "Solvent": "√",
+    "Penetration enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Dimethylacetamide ",
+    "Solvent": "√"
+  },
+  {
+    "Excipients / Function": "Disodium Edetate ",
+    "Chelating agent": "√"
+  },
+  {
+    "Excipients / Function": "Docusate Sodium ",
+    "Wetting agent": "√",
+    "Anionic": "√"
+  },
+  {
+    "Excipients / Function": "Edetic Acid ",
+    "Chelating": "√"
+  },
+  {
+    "Excipients / Function": "Erythorbic Acid ",
+    "Antioxidant": "√"
+  },
+  {
+    "Excipients / Function": "Erythritol ",
+    "Diluent": "√",
+    "Sweetening": "√",
+    "Taste masking": "√"
+  },
+  {
+    "Excipients / Function": "Ethyl Acetate ",
+    "Solvent": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Ethyl Lactate ",
+    "Solvent": "√",
+    "Film-former/coating": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Ethyl Maltol ",
+    "Solvent": "√",
+    "Oleaginous vehicle": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Ethyl Oleate ",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Ethyl Vanillin ",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Ethylcellulose ",
+    "Diluent": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Film-former/coating": "√",
+    "Fixative": "√"
+  },
+  {
+    "Excipients / Function": "Ethylene Glycol Palmitostearate ",
+    "Emulsifying": "√",
+    "Stabilizing": "√"
+  },
+  {
+    "Excipients / Function": "Ethylene Vinyl Acetate ",
+    "Membrane": "√",
+    "Transdermal backing": "√"
+  },
+  {
+    "Excipients / Function": "Ethylparaben ",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Fructose ",
+    "Diluent": "√",
+    "Sweetening": "√",
+    "Flavor enhancer": "√",
+    "Dissolution enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Fumaric Acid ",
+    "Acidifying": "√",
+    "Therapeutic agent": "√",
+    "Antioxidant": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Gelatin ",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Gelling agent": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Glucose, Liquid ",
+    "Binder": "√",
+    "Sweetening": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Glycerin ",
+    "Emulsifying": "√",
+    "Sweetening": "√",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Humectant": "√",
+    "Antimicrobial preservative": "√",
+    "Tonicity agent": "√"
+  },
+  {
+    "Excipients / Function": "Glyceryl Behenate ",
+    "Binder": "√",
+    "Film-former/coating": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Glyceryl Monooleate ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Sustained/Extended/Control ": "√",
+    "Gelling agent": "√",
+    "Bioadhesive": "√",
+    "Mucoadhesive": "√",
+    "Nonionic surfactant": "√"
+  },
+  {
+    "Excipients / Function": "Glyceryl Monostearate ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Sustained/Extended/Control ": "√",
+    "Solubilizing": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Glyceryl Palmitostearate ",
+    "Diluent": "√",
+    "Sustained/Extended/Control ": "√",
+    "Biodegradable": "√",
+    "Gelling agent": "√",
+    "Film-former/coating": "√",
+    "Lubricant (glidant)": "√",
+    "Release-modifying": "√",
+    "Taste masking": "√"
+  },
+  {
+    "Excipients / Function": "Glycofurol ",
+    "Solvent": "√",
+    "Penetration enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Guar Gum ",
+    "Suspending": "√",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√"
+  },
+  {
+    "Excipients / Function": "Hectorite ",
+    "Emulsifying": "√",
+    "Viscosity-increasing": "√",
+    "Adsorbent": "√",
+    "Cosmetic ingredient": "√"
+  },
+  {
+    "Excipients / Function": "Heptafluoropropane (HFC) ",
+    "Aerosol propellant": "√"
+  },
+  {
+    "Excipients / Function": "Hexetidine ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√"
+  },
+  {
+    "Excipients / Function": "Hydrocarbons (HC) ",
+    "Aerosol propellant": "√"
+  },
+  {
+    "Excipients / Function": "Hydrochloric Acid ",
+    "Acidifying": "√"
+  },
+  {
+    "Excipients / Function": "Hydroxyethyl Cellulose ",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Thickener": "√",
+    "Film-former/coating": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Hydroxyethylmethyl Cellulose ",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Thickener": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Hydroxypropyl Cellulose ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Thickener": "√",
+    "Sustained/Extended/Control ": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Hydroxypropyl Cellulose, Low-substituted ",
+    "Binder": "√",
+    "Disintegrant": "√"
+  },
+  {
+    "Excipients / Function": "Hydroxypropyl Starch ",
+    "Emulsifying": "√",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√",
+    "Thickener": "√"
+  },
+  {
+    "Excipients / Function": "Hypromellose ",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Sustained/Extended/Control ": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Hypromellose Acetate Succinate ",
+    "Sustained/Extended/Control ": "√",
+    "Dispersing (Solid)": "√",
+    "Film-former/coating": "√",
+    "Enteric coating": "√"
+  },
+  {
+    "Excipients / Function": "Hypromellose Phthalate ",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Imidurea ",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Inulin ",
+    "Binder": "√",
+    "Sweetening": "√",
+    "Diagnostic aid": "√"
+  },
+  {
+    "Excipients / Function": "Iron Oxides ",
+    "Colorants": "√"
+  },
+  {
+    "Excipients / Function": "Isomalt ",
+    "Diluent": "√",
+    "Sweetening": "√",
+    "Film-former/coating": "√",
+    "Granulating": "√"
+  },
+  {
+    "Excipients / Function": "Isopropyl Alcohol ",
+    "Solvent": "√",
+    "Disinfectant": "√"
+  },
+  {
+    "Excipients / Function": "Isopropyl Myristate ",
+    "Emulsifying": "√",
+    "Solvent": "√",
+    "Skin penetrant": "√",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Isopropyl Palmitate ",
+    "Emulsifying": "√",
+    "Solvent": "√",
+    "Skin penetrant": "√",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Kaolin ",
+    "Diluent": "√",
+    "Suspending": "√",
+    "Adsorbent": "√"
+  },
+  {
+    "Excipients / Function": "Lactic Acid ",
+    "Acidifying": "√",
+    "Acidulant": "√"
+  },
+  {
+    "Excipients / Function": "Lactitol ",
+    "Diluent": "√",
+    "Sweetening": "√",
+    "Therapeutic agent": "√"
+  },
+  {
+    "Excipients / Function": "Lactose, Anhydrous ",
+    "Diluent": "√",
+    "Binder": "√",
+    "Directly compressible tableting excipient": "√",
+    "Lyophilization aid": "√"
+  },
+  {
+    "Excipients / Function": "Lactose, Monohydrate ",
+    "Diluent": "√",
+    "Binder": "√"
+  },
+  {
+    "Excipients / Function": "Lactose, Spray-Dried ",
+    "Diluent": "√",
+    "Binder": "√",
+    "Sweetening": "√",
+    "Directly compressible tableting excipient": "√"
+  },
+  {
+    "Excipients / Function": "Lanolin ",
+    "Emulsifying": "√",
+    "Ointment base": "√"
+  },
+  {
+    "Excipients / Function": "Lanolin Alcohols ",
+    "Emulsifying": "√",
+    "Ointment base": "√"
+  },
+  {
+    "Excipients / Function": "Lanolin, Hydrous ",
+    "Emulsifying": "√",
+    "Ointment base": "√"
+  },
+  {
+    "Excipients / Function": "Lauric Acid ",
+    "Emulsifying": "√",
+    "Lubricant (glidant)": "√",
+    "Food additive": "√",
+    "Surfactant": "√"
+  },
+  {
+    "Excipients / Function": "Lecithin ",
+    "Emulsifying": "√",
+    "Solubilizing": "√"
+  },
+  {
+    "Excipients / Function": "Leucine ",
+    "Emulsifying": "√",
+    "Lubricant (glidant)": "√",
+    "Flavor enhancer": "√",
+    "Antiadherent": "√"
+  },
+  {
+    "Excipients / Function": "Linoleic Acid ",
+    "Emulsifying": "√",
+    "Skin penetrant": "√",
+    "Dietary supplement": "√"
+  },
+  {
+    "Excipients / Function": "Macrogol 15 Hydroxystearate ",
+    "Solubilizing": "√",
+    "Dissolution enhancer": "√",
+    "Nonionic surfactant": "√"
+  },
+  {
+    "Excipients / Function": "Magnesium Aluminum Silicate ",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√",
+    "Adsorbent": "√"
+  },
+  {
+    "Excipients / Function": "Magnesium Carbonate ",
+    "Diluent": "√",
+    "Adsorbent": "√",
+    "Antacid": "√"
+  },
+  {
+    "Excipients / Function": "Magnesium Oxide ",
+    "Emulsifying": "√",
+    "Diluent": "√",
+    "Lubricant (glidant)": "√",
+    "Anticaking": "√"
+  },
+  {
+    "Excipients / Function": "Magnesium Silicate ",
+    "Lubricant (glidant)": "√",
+    "Anticaking": "√"
+  },
+  {
+    "Excipients / Function": "Magnesium Stearate ",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Magnesium Trisilicate DONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE ",
+    "Therapeutic agent": "√",
+    "Lubricant (glidant)": "√",
+    "Anticaking": "√"
+  },
+  {
+    "Excipients / Function": "Malic Acid ",
+    "Therapeutic agent": "√",
+    "Antioxidant": "√",
+    "Buffering": "√",
+    "Chelating": "√",
+    "Flavor enhancer": "√",
+    "Chelating agent": "√",
+    "Acidulant": "√"
+  },
+  {
+    "Excipients / Function": "Maltitol "
+  },
+  {
+    "Excipients / Function": "Maltitol Solution ",
+    "Suspending": "√",
+    "Sweetening": "√"
+  },
+  {
+    "Excipients / Function": "Maltodextrin ",
+    "Diluent": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Maltol ",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Maltose ",
+    "Diluent": "√",
+    "Sweetening": "√"
+  },
+  {
+    "Excipients / Function": "Mannitol ",
+    "Diluent": "√",
+    "Sweetening": "√",
+    "Tonicity agent": "√"
+  },
+  {
+    "Excipients / Function": "Medium-chain Triglycerides ",
+    "Emulsifying": "√",
+    "Suspending": "√",
+    "Solvent": "√",
+    "Therapeutic agent": "√"
+  },
+  {
+    "Excipients / Function": "Meglumine ",
+    "Solubilizing": "√",
+    "Organic base": "√"
+  },
+  {
+    "Excipients / Function": "Menthol ",
+    "Therapeutic agent": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Methylcellulose ",
+    "Emulsifying": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Methylparaben ",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Mineral Oil ",
+    "Emulsifying": "√",
+    "Solvent": "√",
+    "Oleaginous vehicle": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Mineral Oil, Light ",
+    "Emulsifying": "√",
+    "Solvent": "√",
+    "Therapeutic agent": "√",
+    "Skin penetrant": "√",
+    "Oleaginous vehicle": "√",
+    "Lubricant (glidant)": "√",
+    "Penetration enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Mineral Oil and Lanolin Alcohols ",
+    "Emulsifying": "√",
+    "Plasticizer": "√"
+  },
+  {
+    "Excipients / Function": "Monoethanolamine ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Solvent": "√",
+    "Therapeutic agent": "√",
+    "Alkalizing": "√"
+  },
+  {
+    "Excipients / Function": "Monosodium Glutamate ",
+    "Buffering": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Monothioglycerol ",
+    "Antioxidant": "√",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Myristic Acid ",
+    "Emulsifying": "√",
+    "Skin penetrant": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Neohesperidin Dihydrochalcone ",
+    "Sweetening": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Nitrogen ",
+    "Aerosol propellant": "√",
+    "Air displacement": "√"
+  },
+  {
+    "Excipients / Function": "Nitrous Oxide ",
+    "Therapeutic agent": "√",
+    "Aerosol propellant": "√"
+  },
+  {
+    "Excipients / Function": "Octyldodecanol ",
+    "Emulsifying": "√",
+    "Thickener": "√",
+    "Solvent": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Oleic Acid ",
+    "Emulsifying": "√",
+    "Skin penetrant": "√"
+  },
+  {
+    "Excipients / Function": "Oleyl Alcohol ",
+    "Emulsifying": "√",
+    "Sustained/Extended/Control ": "√",
+    "Skin penetrant": "√",
+    "Antifoaming": "√",
+    "Dissolution enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Olive Oil ",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Palmitic Acid ",
+    "Emulsifying": "√",
+    "Sustained/Extended/Control ": "√",
+    "Skin penetrant": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Paraffin ",
+    "Film-former/coating": "√",
+    "Stiffening agent": "√",
+    "Ointment base": "√"
+  },
+  {
+    "Excipients / Function": "Peanut Oil ",
+    "Solvent": "√",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Pectin ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Thickener": "√",
+    "Adsorbent": "√",
+    "Gelling agent": "√"
+  },
+  {
+    "Excipients / Function": "Petrolatum ",
+    "Emulsifying": "√",
+    "Ointment base": "√"
+  },
+  {
+    "Excipients / Function": "Petrolatum and Lanolin Alcohols ",
+    "Emulsifying": "√",
+    "Plasticizer": "√",
+    "Ointment base": "√"
+  },
+  {
+    "Excipients / Function": "Phenol ",
+    "Therapeutic agent": "√",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√",
+    "Disinfectant": "√"
+  },
+  {
+    "Excipients / Function": "Phenoxyethanol ",
+    "Antimicrobial preservative": "√",
+    "Disinfectant": "√"
+  },
+  {
+    "Excipients / Function": "Phenylethyl Alcohol ",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Phenylmercuric Acetate ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√"
+  },
+  {
+    "Excipients / Function": "Phenylmercuric Borate ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√"
+  },
+  {
+    "Excipients / Function": "Phenylmercuric Nitrate ",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√"
+  },
+  {
+    "Excipients / Function": "Phosphoric Acid ",
+    "Acidifying": "√"
+  },
+  {
+    "Excipients / Function": "Polacrilin Potassium ",
+    "Disintegrant": "√"
+  },
+  {
+    "Excipients / Function": "Poloxamer ",
+    "Emulsifying": "√",
+    "Dispersing (Solid)": "√",
+    "Solubilizing": "√",
+    "Wetting agent": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Polycarbophil ",
+    "Emulsifying": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Thickener": "√",
+    "Sustained/Extended/Control ": "√",
+    "Adsorbent": "√",
+    "Bioadhesive": "√"
+  },
+  {
+    "Excipients / Function": "Polydextrose ",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Film-former/coating": "√",
+    "Granulating": "√"
+  },
+  {
+    "Excipients / Function": "Polyethylene Glycol ",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Suppository base": "√",
+    "Lubricant (glidant)": "√",
+    "Ointment base": "√"
+  },
+  {
+    "Excipients / Function": "Polyethylene Oxide ssssssssssssssssssssssssssssssssssssssssssss",
+    "Binder": "√",
+    "Thickener": "√",
+    "Mucoadhesive": "√"
+  },
+  {
+    "Excipients / Function": "Polymethacrylates ",
+    "Diluent": "√",
+    "Binder": "√",
+    "Sustained/Extended/Control ": "√",
+    "Film-former/coating": "√",
+    "Enteric coating": "√"
+  },
+  {
+    "Excipients / Function": "Poly(methyl vinyl ether/maleic anhydride) ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Viscosity-increasing": "√",
+    "Sustained/Extended/Control ": "√",
+    "Film-former/coating": "√",
+    "Enteric coating": "√",
+    "Bioadhesive": "√",
+    "Release-modifying": "√",
+    "Color dispersant": "√",
+    "Complexing agent": "√"
+  },
+  {
+    "Excipients / Function": "Polyoxyethylene Alkyl Ethers ",
+    "Emulsifying": "√",
+    "Gelling agent": "√",
+    "Solubilizing": "√",
+    "Wetting agent": "√",
+    "Penetration enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Polyoxyethylene Castor Oil Derivatives ",
+    "Emulsifying": "√",
+    "Solubilizing": "√",
+    "Wetting agent": "√"
+  },
+  {
+    "Excipients / Function": "Polyoxyethylene Sorbitan Fatty Acid Esters ",
+    "Emulsifying": "√",
+    "Suspending": "√",
+    "Solubilizing": "√",
+    "Wetting agent": "√",
+    "Nonionic surfactant": "√"
+  },
+  {
+    "Excipients / Function": "Polyoxyethylene Stearates ",
+    "Emulsifying": "√",
+    "Solubilizing": "√",
+    "Wetting agent": "√"
+  },
+  {
+    "Excipients / Function": "Polyvinyl Acetate Phthalate ",
+    "Film-former/coating": "√",
+    "Enteric coating": "√"
+  },
+  {
+    "Excipients / Function": "Polyvinyl Alcohol ",
+    "Stabilizing": "√",
+    "Viscosity-increasing": "√",
+    "Film-former/coating": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Potassium Alginate ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Thickener": "√"
+  },
+  {
+    "Excipients / Function": "Potassium Benzoate ",
+    "Therapeutic agent": "√",
+    "Antimicrobial preservative": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Potassium Bicarbonate ",
+    "Therapeutic agent": "√",
+    "Alkalizing": "√",
+    "Gas forming": "√"
+  },
+  {
+    "Excipients / Function": "Potassium Chloride ",
+    "Stabilizing": "√",
+    "Thickener": "√",
+    "Sustained/Extended/Control ": "√",
+    "Therapeutic agent": "√",
+    "Gelling agent": "√",
+    "Tonicity agent": "√"
+  },
+  {
+    "Excipients / Function": "Potassium Citrate ",
+    "Therapeutic agent": "√",
+    "Alkalizing": "√",
+    "Buffering": "√",
+    "Sequestering agent": "√"
+  },
+  {
+    "Excipients / Function": "Potassium Hydroxide ",
+    "Therapeutic agent": "√",
+    "Alkalizing": "√"
+  },
+  {
+    "Excipients / Function": "Potassium Metabisulfite ",
+    "Antioxidant": "√",
+    "Antimicrobial preservative": "√",
+    "Sterilizing agent": "√"
+  },
+  {
+    "Excipients / Function": "Potassium Sorbate ",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Povidone ",
+    "Suspending": "√",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Dissolution enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Propionic Acid ",
+    "Acidifying": "√",
+    "Antioxidant": "√",
+    "Antimicrobial preservative": "√",
+    "Esterifying agent": "√"
+  },
+  {
+    "Excipients / Function": "Propyl Gallate ",
+    "Antioxidant": "√"
+  },
+  {
+    "Excipients / Function": "Propylene Carbonate ",
+    "Solvent": "√",
+    "Gelling agent": "√"
+  },
+  {
+    "Excipients / Function": "Propylene Glycol ",
+    "Stabilizing": "√",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Humectant": "√",
+    "Antimicrobial preservative": "√",
+    "Disinfectant": "√",
+    "Water-miscible cosolvent": "√"
+  },
+  {
+    "Excipients / Function": "Propylene Glycol Alginate ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Viscosity-increasing": "√",
+    "Gelling agent": "√",
+    "Flavor enhancer": "√",
+    "Antifoaming": "√",
+    "Taste masking": "√"
+  },
+  {
+    "Excipients / Function": "Propylparaben ",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "2-Pyrrolidone ",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Solubilizing": "√",
+    "Penetration enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Raffinose ",
+    "Stabilizing": "√",
+    "Crystallization modifier/Inhibitor (sucrose)": "√",
+    "Stabilizer for freeze-dried formulations": "√",
+    "Blood substitute stabilizer": "√"
+  },
+  {
+    "Excipients / Function": "Saccharin ",
+    "Sweetening": "√",
+    "Flavor enhancer": "√",
+    "Taste masking": "√"
+  },
+  {
+    "Excipients / Function": "Saccharin Sodium ",
+    "Sweetening": "√",
+    "Flavor enhancer": "√",
+    "Taste masking": "√"
+  },
+  {
+    "Excipients / Function": "Saponite ",
+    "Emulsifying": "√",
+    "Suspending": "√",
+    "Viscosity-increasing": "√",
+    "Adsorbent": "√"
+  },
+  {
+    "Excipients / Function": "Sesame Oil",
+    "Solvent": "√",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Shellac ",
+    "Film-former/coating": "√",
+    "Release-modifying": "√"
+  },
+  {
+    "Excipients / Function": "Simethicone ",
+    "Diluent": "√",
+    "Water-repelling agent": "√",
+    "Antifoaming": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Acetate ",
+    "Stabilizing": "√",
+    "Therapeutic agent": "√",
+    "Antimicrobial preservative": "√",
+    "Buffering": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Alginate ",
+    "Diluent": "√",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Viscosity-increasing": "√",
+    "Thickener": "√",
+    "Sustained/Extended/Control ": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Ascorbate ",
+    "Therapeutic agent": "√",
+    "Antioxidant": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Benzoate ",
+    "Antimicrobial preservative": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Bicarbonate ",
+    "Therapeutic agent": "√",
+    "Alkalizing": "√",
+    "Gas forming": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Borate ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Alkalizing": "√",
+    "Antimicrobial preservative": "√",
+    "Disinfectant": "√",
+    "Buffering": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Chloride ",
+    "Diluent": "√",
+    "Lubricant (glidant)": "√",
+    "Tonicity agent": "√",
+    "Channeling agent": "√",
+    "Osmotic agent": "√",
+    "Porosity modifier": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Citrate Dihydrate ",
+    "Emulsifying": "√",
+    "Therapeutic agent": "√",
+    "Alkalizing": "√",
+    "Buffering": "√",
+    "Sequestering agent": "√",
+    "Blood anticoagulant": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Cyclamate ",
+    "Sweetening": "√",
+    "Flavor enhancer": "√",
+    "Taste masking": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Hyaluronate ",
+    "Sustained/Extended/Control ": "√",
+    "Therapeutic agent": "√",
+    "Humectant": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Hydroxide ",
+    "Alkalizing": "√",
+    "Buffering": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Lactate ",
+    "Emulsifying": "√",
+    "Therapeutic agent": "√",
+    "Humectant": "√",
+    "Antimicrobial preservative": "√",
+    "Buffering": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Lauryl Sulfate ",
+    "Emulsifying": "√",
+    "Skin penetrant": "√",
+    "Wetting agent": "√",
+    "Lubricant (glidant)": "√",
+    "Anionic": "√",
+    "Detergent": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Metabisulfite ",
+    "Antioxidant": "√",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Phosphate, Dibasic ",
+    "Emulsifying": "√",
+    "Therapeutic agent": "√",
+    "Buffering": "√",
+    "Sequestering agent": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Phosphate, Monobasic ",
+    "Emulsifying": "√",
+    "Therapeutic agent": "√",
+    "Buffering": "√",
+    "Sequestering agent": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Propionate ",
+    "Therapeutic agent": "√",
+    "Antimicrobial preservative": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Starch Glycolate ",
+    "Suspending": "√",
+    "Disintegrant": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Stearyl Fumarate ",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Sodium Sulfite ",
+    "Antioxidant": "√",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Sorbic Acid ",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Sorbitan Esters (Sorbitan Fatty Acid Esters) ",
+    "Emulsifying": "√",
+    "Suspending": "√",
+    "Dispersing (Solid)": "√",
+    "Solubilizing": "√",
+    "Wetting agent": "√",
+    "Nonionic surfactant": "√"
+  },
+  {
+    "Excipients / Function": "Sorbitol ",
+    "Diluent": "√",
+    "Sweetening": "√",
+    "Plasticizer": "√",
+    "Therapeutic agent": "√",
+    "Humectant": "√"
+  },
+  {
+    "Excipients / Function": "Soybean Oil ",
+    "Solvent": "√",
+    "Oleaginous vehicle": "√"
+  },
+  {
+    "Excipients / Function": "Starch ",
+    "Diluent": "√",
+    "Binder": "√",
+    "Disintegrant": "√",
+    "Therapeutic agent": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Starch, Pregelatinized ",
+    "Diluent": "√",
+    "Binder": "√",
+    "Disintegrant": "√"
+  },
+  {
+    "Excipients / Function": "Starch, Sterilizable Maize ",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Stearic Acid ",
+    "Emulsifying": "√",
+    "Binder": "√",
+    "Solubilizing": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Stearyl Alcohol ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Viscosity-increasing": "√",
+    "Sustained/Extended/Control ": "√",
+    "Skin penetrant": "√",
+    "Release-modifying": "√",
+    "Stiffening agent": "√",
+    "Penetration enhancer": "√",
+    "Water-holding": "√"
+  },
+  {
+    "Excipients / Function": "Sucralose ",
+    "Sweetening": "√"
+  },
+  {
+    "Excipients / Function": "Sucrose ",
+    "Diluent": "√",
+    "Suspending": "√",
+    "Binder": "√",
+    "Viscosity-increasing": "√",
+    "Sweetening": "√",
+    "Film-former/coating": "√",
+    "Granulating": "√"
+  },
+  {
+    "Excipients / Function": "Sugar, Compressible ",
+    "Diluent": "√",
+    "Binder": "√",
+    "Sweetening": "√"
+  },
+  {
+    "Excipients / Function": "Sugar, Confectioner’s ",
+    "Diluent": "√",
+    "Binder": "√",
+    "Sweetening": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Sugar Spheres ",
+    "Diluent": "√"
+  },
+  {
+    "Excipients / Function": "Sulfobutylether b-Cyclodextrin ",
+    "Diluent": "√",
+    "Stabilizing": "√",
+    "Viscosity-increasing": "√",
+    "Solubilizing": "√",
+    "Dissolution enhancer": "√",
+    "Osmotic agent": "√"
+  },
+  {
+    "Excipients / Function": "Sulfuric Acid ",
+    "Acidifying": "√"
+  },
+  {
+    "Excipients / Function": "Sunflower Oil ",
+    "Emulsifying": "√",
+    "Diluent": "√",
+    "Binder": "√",
+    "Solvent": "√",
+    "Therapeutic agent": "√"
+  },
+  {
+    "Excipients / Function": "Suppository Bases, Hard Fat (Hard fat triglyceride esters) ",
+    "Suppository base": "√"
+  },
+  {
+    "Excipients / Function": "Talc ",
+    "Diluent": "√",
+    "Lubricant (glidant)": "√",
+    "Anticaking": "√"
+  },
+  {
+    "Excipients / Function": "Tartaric Acid ",
+    "Acidifying": "√",
+    "Antioxidant": "√",
+    "Flavor enhancer": "√",
+    "Sequestering agent": "√"
+  },
+  {
+    "Excipients / Function": "Tetrafluoroethane (HFC) ",
+    "Aerosol propellant": "√"
+  },
+  {
+    "Excipients / Function": "Thaumatin ",
+    "Sweetening": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Thimerosal ",
+    "Therapeutic agent": "√",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√"
+  },
+  {
+    "Excipients / Function": "Thymol ",
+    "Therapeutic agent": "√",
+    "Skin penetrant": "√",
+    "Antioxidant": "√",
+    "Antimicrobial preservative": "√",
+    "Antiseptic": "√",
+    "Disinfectant": "√",
+    "Flavor enhancer": "√",
+    "Cooling agent": "√"
+  },
+  {
+    "Excipients / Function": "Titanium Dioxide ",
+    "Opacifier": "√",
+    "Film-former/coating": "√",
+    "Pigment": "√"
+  },
+  {
+    "Excipients / Function": "Tragacanth dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "Emulsifying": "√",
+    "Suspending": "√",
+    "Viscosity-increasing": "√"
+  },
+  {
+    "Excipients / Function": "Trehalose ",
+    "Diluent": "√",
+    "Stabilizing": "√",
+    "Thickener": "√",
+    "Sweetening": "√",
+    "Humectant": "√",
+    "Flavor enhancer": "√",
+    "Colorants": "√",
+    "Stabilizer for freeze-dried formulations": "√"
+  },
+  {
+    "Excipients / Function": "Triacetin ",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Humectant": "√"
+  },
+  {
+    "Excipients / Function": "Tributyl Citrate",
+    "Plasticizer": "√"
+  },
+  {
+    "Excipients / Function": "Triethanolamine",
+    "Emulsifying": "√",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Alkalizing": "√",
+    "Humectant": "√",
+    "Buffering": "√"
+  },
+  {
+    "Excipients / Function": "Triethyl Citrate ",
+    "Solvent": "√",
+    "Plasticizer": "√",
+    "Flavor enhancer": "√"
+  },
+  {
+    "Excipients / Function": "Vanillin",
+    "Film-former/coating": "√",
+    "Flavor enhancer": "√",
+    "Taste masking": "√"
+  },
+  {
+    "Excipients / Function": "Vegetable Oil, Hydrogenated ",
+    "Binder": "√",
+    "Sustained/Extended/Control ": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "Water ",
+    "Solvent": "√"
+  },
+  {
+    "Excipients / Function": "Wax, Anionic Emulsifying ",
+    "Emulsifying": "√",
+    "Stiffening agent": "√"
+  },
+  {
+    "Excipients / Function": "Wax, Carnauba ",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Wax, Cetyl Esters ",
+    "Emulsifying": "√",
+    "Stiffening agent": "√"
+  },
+  {
+    "Excipients / Function": "Wax, Microcrystalline ",
+    "Sustained/Extended/Control ": "√",
+    "Film-former/coating": "√",
+    "Stiffening agent": "√"
+  },
+  {
+    "Excipients / Function": "Wax, Nonionic Emulsifying ",
+    "Emulsifying": "√",
+    "Stiffening agent": "√"
+  },
+  {
+    "Excipients / Function": "Wax, White ",
+    "Stabilizing": "√",
+    "Sustained/Extended/Control ": "√",
+    "Film-former/coating": "√",
+    "Stiffening agent": "√"
+  },
+  {
+    "Excipients / Function": "Wax, Yellow ",
+    "Stabilizing": "√",
+    "Sustained/Extended/Control ": "√",
+    "Stiffening agent": "√",
+    "Polishing agent": "√"
+  },
+  {
+    "Excipients / Function": "Xanthan Gum ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Suspending": "√",
+    "Viscosity-increasing": "√",
+    "Thickener": "√"
+  },
+  {
+    "Excipients / Function": "Xylitol ",
+    "Emulsifying": "√",
+    "Diluent": "√",
+    "Sweetening": "√",
+    "Film-former/coating": "√",
+    "Humectant": "√",
+    "Antimicrobial preservative": "√"
+  },
+  {
+    "Excipients / Function": "Zein ",
+    "Binder": "√",
+    "Sustained/Extended/Control ": "√",
+    "Film-former/coating": "√"
+  },
+  {
+    "Excipients / Function": "Zinc Acetate ",
+    "Emulsifying": "√",
+    "Stabilizing": "√",
+    "Therapeutic agent": "√",
+    "Gelling agent": "√",
+    "Opacifier": "√"
+  },
+  {
+    "Excipients / Function": "Zinc Stearate ",
+    "Thickener": "√",
+    "Opacifier": "√",
+    "Lubricant (glidant)": "√"
+  },
+  {
+    "Excipients / Function": "منبع: Handbook of Pharmaceutical Excipients "
+  },
+  {
+    "Excipients / Function": "تهیه کننده: احسان تقی زاده داودی"
+  }
+]

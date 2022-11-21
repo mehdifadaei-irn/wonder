@@ -16,8 +16,8 @@ const App = () => {
     <DrugsProvider>
       <StatusBar />
       <SafeAreaView style={{flex: 1 }}>
-        <Test/>
-        {/* <Main/> */}
+        {/* <Test/> */}
+        <Main/>
       </SafeAreaView>
     </DrugsProvider>
   );

@@ -12,8 +12,9 @@ import { DrugsContext } from "../context/context-store";
 import { useNavigation } from "@react-navigation/native";
 import { client } from "../lib/sanityClient";
 import CompareListItem from "../components/CompareListItem";
+import { props } from "../constants/utils/items";
 
-const Choose = ({route}) => {
+const Choose = ({ route }) => {
   const navigation = useNavigation();
   const [input, setInput] = useState("");
   const test = useContext(DrugsContext);
@@ -23,27 +24,19 @@ const Choose = ({route}) => {
   useEffect(() => {
     if (input) {
       let newList = test.mainDataE.filter((d) =>
-        d.title.toLowerCase().includes(input)
+        d.includes(input)
       );
       setMyData(newList);
     }
     if (!input && test.mainDataE) {
-      client
-        .fetch(
-          `*[_type == "excipients"] | order(title asc){
-            _id,
-            title,
-          }`
-        )
-        .then((data) => {
-          setMyData(data);
-          test.setMainDataE(data);
-          setLoading(false);
-        })
-        .catch((error) => console.log(`errorDadash`));
-    }
-    if (!test.mainDataE) {
-      setMyData(test.mainDataE);
+      let arr = [];
+      props.data.map((p) => {
+        arr.push(p.title);
+      });
+      setMyData(arr);
+      test.setMainDataE(arr);
+      setLoading(false);
+
     }
   }, [input]);
 
@@ -78,11 +71,12 @@ const Choose = ({route}) => {
         <Text
           style={{
             color: "#fff",
-            fontFamily: "VazirBold",
             marginRight: "5%",
+            fontWeight: 'bold',
+            fontSize: 20
           }}
         >
-          انتخاب دارو برای مقایسه
+          Choose excipients for Compare!
         </Text>
       </View>
       <View
@@ -91,7 +85,7 @@ const Choose = ({route}) => {
         }}
       >
         <TextInput
-          placeholder="جستجو"
+          placeholder="search"
           value={input}
           onChangeText={(text) => setInput(text)}
           onClear={() => setInput("")}
@@ -104,7 +98,7 @@ const Choose = ({route}) => {
             paddingVertical: "1%",
             paddingHorizontal: "2%",
             borderColor: "#33333390",
-            marginTop: '2%'
+            marginTop: "2%",
           }}
         />
       </View>
@@ -121,7 +115,7 @@ const Choose = ({route}) => {
               return <CompareListItem item={item} witch={route.params.witch} />;
             }}
             style={{
-                marginTop: 8
+              marginTop: 8,
             }}
           />
         </View>

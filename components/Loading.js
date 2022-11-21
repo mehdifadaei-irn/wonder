@@ -10,12 +10,12 @@ const Loading = ({ loading }) => {
   return (
     <View style={styles.container}>
       <ActivityIndicator size={"large"} color={"black"} />
-      {/* <LottieView
+      <LottieView
         source={require("../assets/lottie/97952-loading-animation-blue.json")}
         style={[{ top: -35, width: "100%", aspectRatio: 1 }]}
         autoPlay
         loop
-      /> */}
+      />
     </View>
   );
 };

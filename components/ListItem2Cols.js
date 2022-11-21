@@ -6,9 +6,11 @@ import {
   TouchableOpacity,
   ImageBackground,
   Image,
+  ToastAndroid,
 } from "react-native";
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
+import * as Clipboard from "expo-clipboard";
 
 const { width, height } = Dimensions.get("screen");
 
@@ -19,18 +21,30 @@ const ListItem2Cols = ({ item }) => {
     <TouchableOpacity
       onPress={() =>
         navigation.navigate("searchDF", {
-          title: item.title,
+          title: item,
         })
       }
+      onLongPress={async () => {
+        await Clipboard.setStringAsync(item);
+        ToastAndroid.showWithGravityAndOffset(
+          "Copyied",
+          ToastAndroid.SHORT,
+          ToastAndroid.TOP,
+          0,
+          100
+        );
+      }}
     >
       <ImageBackground
         source={require("../assets/png/Group29.png")}
         style={{
-          width: width / 1.7,
-          height: width / 2.1,
-          elevation: 10,
+          width: width / 2,
+          height: width / 2.2,
+          elevation: 2,
           alignItems: "center",
+          opacity: 0.7,
         }}
+        resizeMode={"cover"}
       >
         <Image
           source={require("../assets/png/drug.png")}
@@ -39,6 +53,7 @@ const ListItem2Cols = ({ item }) => {
             height: 100,
             marginLeft: 8,
             marginTop: 4,
+            opacity: 0.95,
           }}
           resizeMode={"contain"}
         />
@@ -49,11 +64,23 @@ const ListItem2Cols = ({ item }) => {
             alignSelf: "center",
             position: "absolute",
             // left: "40%",
-            bottom: "32%",
+            bottom: "20%",
             maxWidth: 150,
           }}
         >
-          <Text style={{ fontSize: 14, fontWeight: "bold" }}>{item.title}</Text>
+          <Text
+            style={{
+              fontSize: 13,
+              fontWeight: "bold",
+              width: width / 3.2,
+              paddingBottom: -10,
+              height: height / 14,
+              marginBottom: -10,
+              textAlign: "center",
+            }}
+          >
+            {item}
+          </Text>
         </View>
       </ImageBackground>
     </TouchableOpacity>

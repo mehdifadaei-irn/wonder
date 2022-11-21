@@ -7,9 +7,9 @@ export const DrugsProvider = ({ children }) => {
   const [test, setTest] = useState("testy");
   const [mainDataE, setMainDataE] = useState([]);
 
-  const [rightItem, setRightItem] =useState("");
-  const [LeftItem, setLeftItem] =useState("");
-
+  const [rightItem, setRightItem] = useState("");
+  const [LeftItem, setLeftItem] = useState("");
+  const [thirdItem, setThirdItem] = useState("");
 
   let [fontsLoaded] = useFonts({
     Shabnam: require("../assets/fonts/Shabnam.ttf"),
@@ -33,7 +33,9 @@ export const DrugsProvider = ({ children }) => {
         rightItem,
         setLeftItem,
         setRightItem,
-        LeftItem
+        LeftItem,
+        thirdItem,
+        setThirdItem,
       }}
     >
       {children}
