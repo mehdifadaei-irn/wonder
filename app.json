@@ -2,7 +2,7 @@
   "expo": {
     "name": "Excipients",
     "slug": "Excipients",
-    "version": "1.6.5",
+    "version": "1.9.2",
     "orientation": "portrait",
     "icon": "./assets/log0.png",
     "userInterfaceStyle": "light",
@@ -14,7 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,21 +25,19 @@
         "foregroundImage": "./assets/log0.png",
         "backgroundColor": "#FFFFFF"
       },
+      "package": "inf.excipients.main",
+      "permissions": [],
       "blockedPermissions": [
-        "android.permission.RECORD_AUDIO",
-        "android.permission.ACCESS_FINE_LOCATION",
-        "android.permission.READ_CALENDAR",
-        "android.permission.SYSTEM_ALERT_WINDOW",
-        "android.permission.READ_CONTACTS",
-        "android.permission.CAMERA",
-        "android.permission.WRITE_CALENDAR",
-        "android.permission.ACCESS_BACKGROUND_LOCATION",
-        "android.permission.ACCESS_COARSE_LOCATION"
-      ],
-      "package": "excipients.com"
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1914c6c2-7995-48a5-81ae-c5bba8e8ef09"
+      }
     }
   }
 }
